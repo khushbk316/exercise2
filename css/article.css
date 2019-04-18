@@ -1,0 +1,108 @@
+.cont a{
+	font-style: italic;
+
+}
+.cont:after{
+	content:')';
+}
+.cont:before{
+	content:'(';
+}
+
+img
+{
+	float: left;
+	width: 200px;
+}
+ ul a{
+	text-decoration: none;
+	font-style: italic;
+
+}
+
+article{
+	float: right;
+	width: 590px;
+	margin-left: 9px;
+}
+
+}
+.links li{
+	list-style: none;
+	margin-bottom: 0px;
+}
+.info a:hover{
+     color: green;
+     font-size: 22px;
+}
+body{
+	font-size: 20px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+.cont a:hover{
+	font-size:22px;
+    color :green;
+     }
+
+ul a:hover{
+	font-size: 25px;
+	color: green;
+}
+.info a{
+	font-style: italic;
+	color: black;/*to decrease the size of the box*/
+	margin: 0;
+}
+.info{
+	padding: 3px;
+	float: left;
+	font-size: 20px;
+}
+.body{
+	clear:both;/*to make the body inline*/
+}
+form{
+	float:right;
+	
+	width:500;
+}
+ul li{
+	display: inline;
+       
+}
+.links a:after{
+    content:'\\';
+    padding: 0 2px;
+}
+ul li:last-child:after{
+	content: none;/*to remove the / from last list item...*/
+}
+.links{
+		padding-left: 0px;
+        padding-top: 5px;
+        margin-bottom: 0px;
+}
+h3{
+	font-size: 30px;
+	margin: 8px 0 3px 0 ;}
+img{
+	padding-top: 34px;
+}
+.info p {
+	background: #e3e3e3;
+	margin: 10px  0 10px 0;
+}
+
+.body p
+{
+	margin: 2px 0 4px 0 ;
+
+}
+
+
+.cont{
+	float: right;
+}
