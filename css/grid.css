@@ -1,0 +1,154 @@
+nav {
+	width:30%;
+	height:10%;
+	text-align: center;
+	font-size: 20px;
+    overflow: hidden;
+    background:#b5dff2;
+    padding: 0px;
+	
+}
+.main img
+{
+	height: 200px;
+	width: 200px;
+	padding: 17px 10px 0 10px;
+}
+h1{
+	height:10%;
+	text-align: center;
+	font-size: 40px;
+
+}
+ul li{
+	display: inline;
+
+     text-decoration: none;
+}
+ .hero {
+	background: #e7d4f7;
+	height: 40%;
+	padding: 0%;
+	text-align: center;
+}
+.wrap{
+	background:#b5dff2 ;
+
+}
+.left p{
+	
+	height:60%;
+	font-size: 30px;
+	text-align: center;
+}
+.first{
+	height:32%;
+padding: 5px 0 5px 3px;
+	
+}
+.sec {
+height:32%;
+padding: 5px 0 5px 3px;
+	
+}
+.third {
+  height:32%;
+padding: 5px 0 5px 3px;
+}
+.foot{
+	background:#b5dff2 ;
+	height: 20%;
+	text-align: center;
+}
+.main{
+	background-color:#e7d4f7 ;
+	padding-top: 80px;
+	padding-bottom: 0px;
+}
+.left img{
+	padding-top: 0%;
+}
+.right{
+height:60%;
+}
+body p{
+	font-family: 'Playfair Display', serif;
+}
+	
+.hdr{
+	position:fixed;
+     background:#b5dff2 ; 
+}
+.foot img{
+	width:80px;
+	height:80px;
+	padding:0 10px 0 0;
+}
+.foot a{
+	padding:0 20px 0;
+}
+
+
+ul a:hover{
+	
+	color: red;
+}
+.hdr h1{
+	 
+    
+    font-family: cursive;
+    color:black;
+    text-transform: lowercase;
+    text-shadow: 5px -1px 5px blue,
+                 4px  1px 0px white;
+}
+.main a{
+	padding:10px 80px 2px ;
+}
+.left img{
+	width:400px;
+	height:300px;
+}
+.service{
+	padding-top: 30px;
+}
+.first a{
+	float:right;
+	background: #b5dff2;
+}
+.sec a{
+	float:right;
+	background: #b5dff2;
+}
+.third a{
+	float:right;
+	background: #b5dff2;
+}
+.third a:hover{
+	color:red;
+}
+.first a:hover{
+	color:red;
+}
+.sec a:hover{
+	color:red;
+}
+body {
+  background-color: white;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+    
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    
+  }
+}
